@@ -1,0 +1,30 @@
+{
+  "name": "srttovtt",
+  "version": "1.0.0",
+  "description": "Transform srt subtitles to vtt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joacodeviaje/srttovtt.git"
+  },
+  "keywords": [
+    "srt",
+    "vtt",
+    "subtitles"
+  ],
+  "author": "Joaquín Miguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joacodeviaje/srttovtt/issues"
+  },
+  "homepage": "https://github.com/joacodeviaje/srttovtt#readme",
+  "dependencies": {
+    "fs": "0.0.2",
+    "iconv-lite": "^0.4.13",
+    "jschardet": "^1.4.1",
+    "node-captions": "^0.4.6"
+  }
+}
